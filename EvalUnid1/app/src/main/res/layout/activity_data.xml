@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.utng.aquintero.evalunid1.DataActivity">
+
+    <TextView android:id="@+id/txv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txv_data"
+        android:textSize="@dimen/data_title"
+        android:textAlignment="center"
+        />
+
+    <TextView android:id="@+id/txv_datas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txv_title"
+        android:text=""
+        android:textSize="@dimen/result_data"/>
+
+    <Button android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txv_datas"
+        android:text="@string/exit"
+        android:textSize="@dimen/form_alu"
+        />
+
+</RelativeLayout>

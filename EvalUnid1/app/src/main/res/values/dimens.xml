@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="number_size">10pt</dimen>
+    <dimen name="form_alu">10pt</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="data_title">15pt</dimen>
+    <dimen name="result_data">13pt</dimen>
+    <dimen name="calc_title">15pt</dimen>
+</resources>

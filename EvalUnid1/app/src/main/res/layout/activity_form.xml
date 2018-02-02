@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.utng.aquintero.evalunid1.FormActivity">
+
+    <TextView android:id="@+id/txv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_your_name"
+        android:textSize="@dimen/form_alu"
+        />
+
+    <EditText android:id="@+id/edt_name_alu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/form_alu"
+        android:inputType="text"
+        />
+
+    <TextView android:id="@+id/txv_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_your_age"
+        android:textSize="@dimen/form_alu"
+        />
+
+    <EditText android:id="@+id/edt_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/form_alu"
+        android:inputType="number"
+        />
+
+    <TextView android:id="@+id/txv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_your_phone"
+        android:textSize="@dimen/form_alu"
+        />
+    <EditText android:id="@+id/edt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/form_alu"
+        android:inputType="phone"
+        />
+
+
+    <Button android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="@dimen/form_alu"
+        />
+
+
+</LinearLayout>

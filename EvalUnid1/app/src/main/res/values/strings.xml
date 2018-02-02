@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">EvalUnid1</string>
+    <string name="_0_0">0.0</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="multiplication">*</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="substraction">-</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="addition">+</string>
+    <string name="divition">/</string>
+    <string name="_0">0</string>
+    <string name="dot">.</string>
+    <string name="equal">=</string>
+    <string name="type_your_name">Type Your Name:</string>
+    <string name="type_your_age">Type Your Age:</string>
+    <string name="type_your_phone">Type Your Phone:</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="txv_data">Your Data:</string>
+    <string name="exit">Exit</string>
+</resources>
