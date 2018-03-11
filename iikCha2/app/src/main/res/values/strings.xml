@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">iikCha2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_place">Lugares</string>
+    <string name="title_travel">Recorridos</string>
+    <string name="title_events">Eventos</string>
+    <string name="profile">Perfil</string>
+    <string name="regist">Iniciar Sesión</string>
+    <string name="about_us">Acerca de..</string>
+</resources>
